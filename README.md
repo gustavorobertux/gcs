@@ -19,3 +19,5 @@ SonicWall VPN-SSL Exploit Checker* using Golang ( * and other targets vulnerable
 ▶ ./main -i x.x.x.x -c id
 ▶ ./main -i x.x.x.x -c 'id && ifconfig'
 ```
+# Screenshot
+<p align="center"><img src="https://github.com/gustavorobertux/goshock/blob/main/goshock.png" width="40%"></p>
