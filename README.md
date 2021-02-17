@@ -8,7 +8,7 @@ SonicWall VPN-SSL Exploit Checker* using Golang ( * and other targets vulnerable
 # Basic Usage
 ### oneliner
 ```
-▶ for i in $(cat list.txt) ; do echo $i | xargs ./main -i ; done
+▶ for i in $(cat list.txt) ; do echo $i | xargs ./gocheckshock -i ; done
 ```
 ### Simple command - Default -c echo
 ```
