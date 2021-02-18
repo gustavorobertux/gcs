@@ -1,23 +1,23 @@
-# gocheckshock
+# gcs
 SonicWall VPN-SSL Exploit Checker* using Golang ( * and other targets vulnerable to shellshock ).
 
 # Install
 ```
-▶ go get -u -v github.com/gustavorobertux/gocheckshock
+▶ go get -u -v github.com/gustavorobertux/gcs
 ```
 # Basic Usage
 ### oneliner
 ```
-▶ for i in $(cat list.txt) ; do echo $i | xargs ./gocheckshock -i ; done
+▶ for i in $(cat list.txt) ; do echo $i | xargs ./gcs -i ; done
 ```
 ### Simple command - Default -c echo
 ```
-▶ ./gocheckshock -i x.x.x.x
+▶ ./gcs -i x.x.x.x
 ```
 ### With commands
 ```
-▶ ./gocheckshock -i x.x.x.x -c id
-▶ ./gocheckshock -i x.x.x.x -c 'id && ifconfig'
+▶ ./gcs -i x.x.x.x -c id
+▶ ./gcs -i x.x.x.x -c 'id && ifconfig'
 ```
 # Screenshot
-<p align="center"><img src="https://github.com/gustavorobertux/gocheckshock/blob/main/goshock_checker.png" width="90%"></p>
+<p align="center"><img src="https://github.com/gustavorobertux/gcs/blob/main/goshock_checker.png" width="90%"></p>
