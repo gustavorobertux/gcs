@@ -38,7 +38,7 @@ func main() {
 
 	resp, err := client.Do(req)
 	if err != nil {
-		color.Red.Println(*ipPtr, "[NOT VULNERABLE] \n")
+		color.Red.Println(*ipPtr, " [NOT VULNERABLE] ")
 		return
 	} else {
 		color.Green.Print(*ipPtr, " [VULNERABLE] ")
